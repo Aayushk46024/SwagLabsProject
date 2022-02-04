@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<!--    <test thread-count="5" name="Test">-->
+<!--        <classes>-->
+<!--            <class name="Pages.LoginPage">-->
+<!--                <methods>-->
+<!--                    <include name="login"></include>-->
+<!--                </methods>-->
+<!--            </class>-->
+<!--            <class name="Pages.Logout">-->
+<!--                <methods>-->
+<!--                    <include name="logout"></include>-->
+<!--                </methods>-->
+<!--            </class>-->
+<!--            <class name="Pages.About">-->
+<!--                <methods>-->
+<!--                    <include name="about"></include>-->
+<!--                </methods>-->
+<!--            </class>-->
+<!--            <class name="Pages.Hompage">-->
+<!--                <methods>-->
+<!--                    <include name="findProduct"></include>-->
+<!--                    <include name="shoppingCartLink"></include>-->
+<!--                </methods>-->
+<!--            </class>-->
+<!--        </classes>-->
+<!--    </test> &lt;!&ndash; Test &ndash;&gt;-->
+    
+    <test name="login">
+        <classes>
+            <class name="Test.LoginTest"></class>
+            <class name="Test.LogoutTest"></class>
+            <class name="Test.AboutTest"></class>
+            <class name=""></class>
+        </classes>
+    </test>
+</suite> <!-- Suite -->
