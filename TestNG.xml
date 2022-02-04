@@ -26,8 +26,11 @@
 <!--            </class>-->
 <!--        </classes>-->
 <!--    </test> &lt;!&ndash; Test &ndash;&gt;-->
-    
+    <listeners>
+        <listener class-name="resources.Listeners"></listener>
+    </listeners>
     <test name="login">
+
         <classes>
             <class name="Test.LoginTest"></class>
             <class name="Test.LogoutTest"></class>
