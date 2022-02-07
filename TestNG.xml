@@ -18,7 +18,7 @@
 <!--                    <include name="about"></include>-->
 <!--                </methods>-->
 <!--            </class>-->
-<!--            <class name="Pages.Hompage">-->
+<!--            <class name="Pages.HomePage">-->
 <!--                <methods>-->
 <!--                    <include name="findProduct"></include>-->
 <!--                    <include name="shoppingCartLink"></include>-->
@@ -33,9 +33,9 @@
 
         <classes>
             <class name="Test.LoginTest"></class>
+            <class name="Test.AboutPageTest"></class>
+            <class name="Test.HomePageTest"></class>
             <class name="Test.LogoutTest"></class>
-            <class name="Test.AboutTest"></class>
-            <class name=""></class>
         </classes>
     </test>
 </suite> <!-- Suite -->

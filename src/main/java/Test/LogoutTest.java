@@ -2,7 +2,7 @@ package Test;
 
 import Driver.Launch_Browser;
 import Pages.LoginPage;
-import Pages.Logout;
+import Pages.LogoutPage;
 import org.testng.annotations.Test;
 
 public class LogoutTest extends Launch_Browser {
@@ -16,7 +16,7 @@ public class LogoutTest extends Launch_Browser {
 
     @Test(dependsOnMethods = "login")
     public void logout(){
-        Logout logout = new Logout();
+        LogoutPage logout = new LogoutPage();
         logout.logout();
     }
 }

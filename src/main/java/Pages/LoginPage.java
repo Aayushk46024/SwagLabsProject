@@ -14,7 +14,7 @@ public class LoginPage extends Launch_Browser {
     By Password = By.id("password");
     By LoginButton = By.id("login-button");
 
-    @Test(groups = {"login", "logout", "about", "findProduct", "shoppingCartLink"})
+    @Test
     public void login()
     {
         driver.findElement(Username).sendKeys("standard_user");
